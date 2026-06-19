@@ -1,0 +1,6 @@
+{
+  "name": "Guia de Mercúrio Retrógrado e Calculadora Astrológica",
+  "description": "Guia interativo sobre os efeitos de Mercúrio Retrógrado por Casas e Signos, com calculadora astronômica baseada no Tratado das Esferas de Dorotheus.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
