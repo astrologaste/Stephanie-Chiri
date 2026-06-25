@@ -444,12 +444,12 @@ export default function MercuryGuide() {
           </div>
         </div>
 
-        {/* 5-Step Order Flow List with Elegant White Cards (Render if isRoteiroOpen is true) */}
+        {/* 6-Step Order Flow List with Elegant White Cards (Render if isRoteiroOpen is true) */}
         {isRoteiroOpen && (
           <motion.div 
             initial={{ opacity: 0, height: 0 }}
             animate={{ opacity: 1, height: 'auto' }}
-            className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-5 gap-4 pt-4 border-t border-slate-200/60"
+            className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-6 gap-4 pt-4 border-t border-slate-200/60"
           >
             
             <div className="bg-white border border-slate-200 p-4 rounded-xl space-y-3 flex flex-col justify-between shadow-2xs hover:border-indigo-200 transition-colors">
@@ -458,10 +458,11 @@ export default function MercuryGuide() {
                   <span>Passo 1</span>
                   <span className="w-5 h-5 bg-indigo-50 text-indigo-600 rounded-full flex items-center justify-center text-[10px] font-bold">01</span>
                 </div>
-                <h4 className="font-bold text-slate-900 text-xs md:text-sm tracking-tight leading-snug">Olhar casa(s) por onde Mercúrio retrograda</h4>
+                <h4 className="font-bold text-slate-900 text-xs md:text-sm tracking-tight leading-snug">Em que signo Mercúrio está retrogradando?</h4>
+                <div className="text-[10px] text-indigo-600 font-mono font-medium">(Tom desse Mercúrio)</div>
               </div>
               <p className="text-slate-500 text-[11px] leading-relaxed">
-                Mapeie por quais casas natais Mercúrio está caminhando. Elas marcarão as áreas da vida que exigirão o efeito "RE".
+                Identifique a atmosfera do signo onde ocorre o trânsito. Isso define o "tom" intelectual, o estilo comunicativo e o filtro mental predominante no período.
               </p>
             </div>
 
@@ -471,10 +472,11 @@ export default function MercuryGuide() {
                   <span>Passo 2</span>
                   <span className="w-5 h-5 bg-indigo-50 text-indigo-600 rounded-full flex items-center justify-center text-[10px] font-bold">02</span>
                 </div>
-                <h4 className="font-bold text-slate-900 text-xs md:text-sm tracking-tight leading-snug">Aspectos ao planetas natais</h4>
+                <h4 className="font-bold text-slate-900 text-xs md:text-sm tracking-tight leading-snug">Por qual casa ele está passando?</h4>
+                <div className="text-[10px] text-indigo-600 font-mono font-medium">(Área da vida afetada)</div>
               </div>
               <p className="text-slate-500 text-[11px] leading-relaxed">
-                Eles indicam como a energia retrógrada interage diretamente com suas forças de nascimento, gerando cooperação ou fricção.
+                Localize a casa astrológica do seu mapa natal que recebe o trânsito. Essa é a área concreta da vida onde revisões e ajustes serão exigidos de forma ativa.
               </p>
             </div>
 
@@ -484,10 +486,11 @@ export default function MercuryGuide() {
                   <span>Passo 3</span>
                   <span className="w-5 h-5 bg-indigo-50 text-indigo-600 rounded-full flex items-center justify-center text-[10px] font-bold">03</span>
                 </div>
-                <h4 className="font-bold text-slate-900 text-xs md:text-sm tracking-tight leading-snug">Natureza do Mercúrio Natal</h4>
+                <h4 className="font-bold text-slate-900 text-xs md:text-sm tracking-tight leading-snug">Que aspectos ele faz?</h4>
+                <div className="text-[10px] text-indigo-600 font-mono font-medium">(Dinâmica psicológica)</div>
               </div>
               <p className="text-slate-500 text-[11px] leading-relaxed">
-                Descubra qual a sua base natural de Mercúrio de nascimento para alinhar suas expectativas de tolerância intelectual.
+                Mapeie as conexões (aspectos) aos seus planetas natais. Elas determinam como a energia retrógrada interage com sua mente natal, gerando fricção ou facilitação.
               </p>
             </div>
 
@@ -497,24 +500,39 @@ export default function MercuryGuide() {
                   <span>Passo 4</span>
                   <span className="w-5 h-5 bg-indigo-50 text-indigo-600 rounded-full flex items-center justify-center text-[10px] font-bold">04</span>
                 </div>
-                <h4 className="font-bold text-slate-900 text-xs md:text-sm tracking-tight leading-snug">Casas regidas por Mercúrio</h4>
+                <h4 className="font-bold text-slate-900 text-xs md:text-sm tracking-tight leading-snug">Como é o seu Mercúrio Natal?</h4>
+                <div className="text-[10px] text-indigo-600 font-mono font-medium">(Seu filtro original)</div>
               </div>
               <p className="text-slate-500 text-[11px] leading-relaxed">
-                As casas de Gêmeos e Virgem entrarão em um compasso de espera orgânico, pois o regente delas desacelerará no céu.
+                Avalie o seu Mercúrio de nascimento. Se você já nasceu com Mercúrio Retrógrado, sentirá esses períodos gerais de trânsito de forma natural e produtiva.
               </p>
             </div>
 
-            {/* Completely aligned design with other steps — no border highlight */}
             <div className="bg-white border border-slate-200 p-4 rounded-xl space-y-3 flex flex-col justify-between shadow-xs hover:border-indigo-200 transition-colors">
               <div className="space-y-2">
                 <div className="font-mono text-[10px] font-bold text-indigo-640 uppercase tracking-widest border-b border-slate-100 pb-1.5 flex items-center justify-between">
                   <span>Passo 5</span>
                   <span className="w-5 h-5 bg-indigo-50 text-indigo-600 rounded-full flex items-center justify-center text-[10px] font-bold">05</span>
                 </div>
-                <h4 className="font-bold text-slate-900 text-xs md:text-sm tracking-tight leading-snug">Regente Dispositor do signo</h4>
+                <h4 className="font-bold text-slate-900 text-xs md:text-sm tracking-tight leading-snug">Qual tema está sendo revisado?</h4>
+                <div className="text-[10px] text-indigo-600 font-mono font-medium">(Sentido psicológico)</div>
               </div>
               <p className="text-slate-500 text-[11px] leading-relaxed">
-                Quem é o regente soberano do signo em que o planeta está retrogradando? Sua força modular dita se há suporte ou ruído.
+                Reflita sobre o propósito mais profundo do ciclo: que tipo de padrões, velhos diálogos ou projetos passados estão vindo à tona para serem saneados?
+              </p>
+            </div>
+
+            <div className="bg-white border border-slate-200 p-4 rounded-xl space-y-3 flex flex-col justify-between shadow-xs hover:border-indigo-200 transition-colors">
+              <div className="space-y-2">
+                <div className="font-mono text-[10px] font-bold text-indigo-640 uppercase tracking-widest border-b border-slate-100 pb-1.5 flex items-center justify-between">
+                  <span>Passo 6</span>
+                  <span className="w-5 h-5 bg-indigo-50 text-indigo-600 rounded-full flex items-center justify-center text-[10px] font-bold">06</span>
+                </div>
+                <h4 className="font-bold text-slate-900 text-xs md:text-sm tracking-tight leading-snug">Que casas ele rege?</h4>
+                <div className="text-[10px] text-indigo-600 font-mono font-medium">(Gêmeos e Virgem)</div>
+              </div>
+              <p className="text-slate-500 text-[11px] leading-relaxed">
+                As casas onde você possui Gêmeos e Virgem no mapa natal também entram em modo de espera orquestrado, pois o regente delas está temporariamente mudando de marcha.
               </p>
             </div>
 
