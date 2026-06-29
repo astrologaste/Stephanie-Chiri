@@ -540,6 +540,72 @@ export default function MercuryGuide() {
         )}
       </div>
 
+      {/* 7. DISPOSITOR TRACKING & NOVEMBER 2026 CASE STUDY */}
+      <div className="bg-gradient-to-br from-indigo-50/60 to-violet-50/40 border border-indigo-150 rounded-2xl p-6 md:p-8 shadow-xs space-y-6" id="dispositor-tracking-guide">
+        <div className="space-y-2">
+          <div className="flex items-center gap-2 text-indigo-700 font-mono text-xs font-bold uppercase tracking-wider">
+            <Compass className="w-4 h-4 text-indigo-600 animate-spin-slow" />
+            Rastreamento Avançado
+          </div>
+          <h2 className="text-xl md:text-2xl font-sans font-extrabold text-slate-900 tracking-tight">
+            Como Encontrar o Dispositor de Mercúrio no Céu
+          </h2>
+          <p className="text-slate-650 text-xs md:text-sm leading-relaxed">
+            Na Astrologia Tradicional, nenhum planeta age sozinho. Quando Mercúrio retrograda em um signo, o planeta que manda nesse território (o seu <strong>Dispositor</strong> ou anfitrião) dita o suporte material e a inteligência prática daquele período. Se o dispositor estiver fortalecido no céu, os imprevistos da retrogradação são facilmente superados; se ele estiver fragilizado, os ruídos de comunicação tendem a se amplificar.
+          </p>
+        </div>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          {/* Rule of tracking card */}
+          <div className="bg-white border border-slate-200/80 p-5 rounded-xl space-y-3 shadow-3xs hover:shadow-2xs transition-shadow">
+            <h3 className="font-bold text-slate-900 text-sm font-sans flex items-center gap-2">
+              <span className="w-2 h-2 rounded-full bg-indigo-500 animate-pulse"></span>
+              A Regra do "Efeito Dominó"
+            </h3>
+            <p className="text-slate-600 text-xs leading-relaxed">
+              Para encontrar o dispositor, siga a regência do signo em que o trânsito se localiza para desvendar as condições de recepção mundana.
+            </p>
+            <div className="bg-indigo-50/45 p-3.5 rounded-lg border border-indigo-100 text-slate-700 text-xs space-y-2 font-sans">
+              <div className="font-semibold text-indigo-850 flex items-center gap-1.5 font-sans">
+                <Info className="w-3.5 h-3.5 text-indigo-650" />
+                Exemplo de Fluxo:
+              </div>
+              <p className="leading-relaxed text-[11px] text-slate-650">
+                Se Mercúrio retrograda no signo de <strong>Câncer</strong>, olhamos imediatamente para onde a <strong>Lua</strong> (regente de Câncer) está no céu naquele momento. Se a Lua estiver em <strong>Escorpião</strong>, a dinâmica mental dependerá de <strong>Marte</strong> (regente de Escorpião) e da posição de Marte no céu, criando uma cadeia de disposição viva.
+              </p>
+            </div>
+          </div>
+
+          {/* Practical study case Nov/2026 */}
+          <div className="bg-amber-50/15 border border-amber-200/60 p-5 rounded-xl space-y-3 shadow-3xs hover:shadow-2xs transition-shadow">
+            <div className="flex items-center justify-between border-b border-amber-100 pb-2">
+              <h3 className="font-bold text-slate-950 text-sm font-sans flex items-center gap-2">
+                <Sparkles className="w-4 h-4 text-amber-500 animate-pulse" />
+                Estudo de Caso: MR de Novembro / 2026
+              </h3>
+              <span className="text-[10px] font-mono font-bold bg-amber-50 text-amber-750 px-2 py-0.5 rounded border border-amber-200/40">
+                Nov / 2026
+              </span>
+            </div>
+            <p className="text-slate-600 text-xs leading-relaxed">
+              Em novembro de 2026, Mercúrio fará seu trânsito retrógrado no signo profundo e investigativo de <strong>Escorpião</strong>.
+            </p>
+            
+            <div className="space-y-2">
+              <p className="text-slate-700 text-xs leading-relaxed">
+                O regente tradicional de Escorpião é <strong>Marte</strong>. No céu de novembro de 2026, <strong>Marte estará transitando pelo signo de Leão</strong>. 
+              </p>
+              <div className="bg-white p-3 rounded-lg border border-amber-200 text-slate-700 text-xs shadow-3xs">
+                <span className="font-bold text-amber-850 block mb-1">🔥 O "Tempero" de Marte em Leão:</span>
+                <p className="leading-relaxed text-[11px] text-slate-650">
+                  Marte em Leão injeta orgulho, nobreza e intensidade dramática a esse Mercúrio Retrógrado. Embora as revisões ocorram em esferas secretas ou profundas de Escorpião, a atitude mental de Leão traz uma tendência a disputas de ego e comunicação teatralizada. O aprendizado é usar a coragem de Leão para expor e curar feridas de Escorpião sem cair na teimosia ou no drama estéril.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
     </div>
   );
 }
